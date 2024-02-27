@@ -1,5 +1,24 @@
 body{
-    background-color: rgb(46, 45, 83);
+    min-height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 8vh;
+    background-color: antiquewhite;
+}
+
+
+#no-texto{
+    width: 340px;
+    height: 300px;
+}
+
+main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
 }
 
 #logo-alura{
@@ -10,9 +29,7 @@ body{
 }
 
 section{
-    margin: 4px 0 0 50px;
-    display: inline-block;
-    height: 900px;
+    height: 100%;
     width: 40%;
 }
 
@@ -20,4 +37,41 @@ section{
     width: 100%;
     height: 90%;
     background-color: rgb(46, 45, 83);
+}
+
+.bloque-izquierdo{
+    width: 65%;
+}
+
+#ingreso-texto{
+    width: 75%;
+    height: 80%;
+}
+
+.bloque-derecho{
+    width: 25%;
+}
+
+#imagen-sin-texto{
+    width: 100%;
+    height: 60%;
+    padding: 16px 0 0 0;
+    box-sizing: border-box;
+}
+
+#div-h3{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+#div-p{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 7vh;
 }
