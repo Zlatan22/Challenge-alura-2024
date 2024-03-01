@@ -14,19 +14,25 @@
     </header>
     <main>
         <section class="bloque-izquierdo">
-                <textarea id="ingreso-texto" placeholder="Ingrese su texto para encriptar o desencriptar"></textarea>
-                <button class="encriptar">Encriptar</button>
-                <button class="desencriptar">Desencriptar</button>
+                <textarea class="blanco" id="ingreso-texto" placeholder="Ingrese su texto para encriptar o desencriptar"></textarea>    
+                <div id="aviso">
+                    <img src="images/alerta.svg" alt="aviso" id="alerta">
+                    <p class="blanco">Escribir unicamente en minúscula y sin acentos</p>
+                </div>
+                <div class="div-botones">
+                    <input type="button" class="boton" value="Encriptar">
+                    <input type="button" class="boton" value="Desencriptar">
+                </div>
         </section>
         <section class="bloque-derecho">
             <div id="imagen-sin-texto">
-                <img src="images/no-texto.jpg" alt="Imagen no ingreso ningun mensaje" id="no-texto">
+                <img src="images/no-texto.png" alt="Imagen no ingreso ningun mensaje" id="no-texto">
             </div>
             <div id="div-h3">
-                <h3>No se ingreso ningun mensaje</h3>
+                <h3 class="blanco">No se ingreso ningun mensaje</h3>
             </div>
             <div id="div-p">
-                <p>Ingrese el texto a procesar</p>
+                <p class="blanco">Ingrese el texto a procesar</p>
             </div>
         </section>
     </main>
