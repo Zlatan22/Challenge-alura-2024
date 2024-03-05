@@ -1,11 +1,13 @@
 body{
     min-height: 100vh;
+    background-color: rgb(86, 85, 150);
+
 }
 
 header{
     width: 100%;
-    height: 7vh;
-    background-color: rgb(58, 57, 104);
+    height: 5vh;
+    background-color: rgb(86, 85, 150);
 }
 
 #no-texto{
@@ -17,7 +19,7 @@ main{
     width: 100%;
     height: 80vh;
     display: flex;
-    background-color: rgb(58, 57, 104);
+    background-color: rgb(86, 85, 150);
 }
 
 #logo-alura{
@@ -35,19 +37,26 @@ section{
 #ingreso-texto{
     width: 100%;
     height: 80%;
-    background-color: rgb(58, 57, 104);
+    background-color: rgb(86, 85, 150);
     border: none;
 }
 
 #aviso{
     padding: 8px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 9%;
+}
+
+#alerta{
+    padding: 0 1% 0 ;
 }
 
 .bloque-izquierdo{
     width: 70%;
-    /* background-color: aqua; */
-
+    height: 90%;
+    margin-top: 2%;
 }
 
 #ingreso-texto{
@@ -65,15 +74,29 @@ section{
     text-align: center;
 }
 
-.boton{
+.boton-encriptar{
     margin: 10px;
     width: 20%;
-    height: 30%;
+    height: 5vh;
+    border-radius: 14px;
+    background-color: rgb(60, 59, 96);
+    color: aliceblue;
+}
+
+.boton-desencriptar{
+    margin: 10px;
+    width: 20%;
+    height: 5vh;
+    border-radius: 14px;
+    background-color: rgb(175, 174, 207);
 }
 
 .bloque-derecho{
+    box-sizing: border-box;
+    overflow: hidden;
     width: 25%;
-    background-color: rgb(114, 113, 151);
+    height: 90vh;
+    background-color: rgb(159, 157, 206);
     border-radius: 22px;
 }
 
@@ -98,20 +121,49 @@ section{
     font-size: 4vh;
 }
 
-p{
+#div-p{
     width: 100%;
     height: 10%;
     text-align: center;
     font-size: 2.2vh;
+    margin-bottom: 20%;
+}
+
+.texto-derecho{
+    font-size: 3vh;
+    color: bisque;
 }
 
 .blanco{
-    color: bisque;   
+    color: bisque;
+    font-size: 2.1vh;
+}
+
+#respuesta{
+    width: 90%;
+    margin: 5%;
+    height: 86%;
+    box-sizing: border-box;
+}
+
+#div-copiar{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}
+ 
+#boton-copiar{
+    width: 80%;
+    height: 40%;
+    border-radius: 14px;
 }
 
 footer{
+    margin-top: 10%;
     width: 100%;
-    height: 7vh;
-    background-color: rgb(58, 57, 104);
-
+    height: 5vh;
+    background-color: rgb(86, 85, 150);
+    display: flex;
+    justify-content: center;
 }
