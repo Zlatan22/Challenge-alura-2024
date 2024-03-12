@@ -153,7 +153,7 @@ section{
     justify-content: center;
 }
  
-#boton-copiar{
+.boton-copiar{
     width: 80%;
     height: 40%;
     border-radius: 14px;
@@ -166,4 +166,8 @@ footer{
     background-color: rgb(86, 85, 150);
     display: flex;
     justify-content: center;
+}
+
+.esconder{
+    display: none;
 }
